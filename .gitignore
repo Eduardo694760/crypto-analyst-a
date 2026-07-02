@@ -19,3 +19,19 @@ __pycache__/
 
 # Ignorar configurações do VS Code
 .vscode/
+# Ignorar arquivos de migração temporários
+migrations/
+
+# Ignorar arquivos de testes temporários
+*.coverage
+.coverage.*
+htmlcov/
+
+# Ignorar relatórios de dependências
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar arquivos de build
+build/
+dist/
+*.egg-info/
