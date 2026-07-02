@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Analyst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>Crypto Analyst</h1>
+        <p class="subtitle">Preços, notícias e análise de IA em tempo real</p>
+    </header>
+
+    <main class="container">
+
+        <!-- Seção Criptos -->
+        <section class="card" id="cripto-section">
+            <h2>💰 Criptomoedas</h2>
+            <div class="crypto-grid" id="crypto-grid">
+                <div class="crypto-item">
+                    <span class="crypto-label">BTC</span>
+                    <span class="crypto-price" id="btc-price">Carregando...</span>
+                </div>
+                <div class="crypto-item">
+                    <span class="crypto-label">ETH</span>
+                    <span class="crypto-price" id="eth-price">Carregando...</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Notícias -->
+        <section class="card" id="news-section">
+            <h2>📰 Últimas Notícias</h2>
+            <ul class="news-list" id="news-list">
+                <li>Carregando notícias...</li>
+            </ul>
+        </section>
+
+        <!-- Seção Análise IA -->
+        <section class="card" id="ai-section">
+            <h2>🤖 Análise da IA</h2>
+            <p class="ai-analysis" id="ai-analysis">Carregando análise...</p>
+        </section>
+
+        <!-- Seção Histórico -->
+        <section class="card" id="history-section">
+            <h2>📜 Histórico</h2>
+            <ul class="history-list" id="history-list">
+                <li>Carregando histórico...</li>
+            </ul>
+        </section>
+
+        <!-- Mensagem de erro geral -->
+        <div class="error-message" id="error-message" style="display: none;">
+            Erro ao carregar dados
+        </div>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Crypto Analyst</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
