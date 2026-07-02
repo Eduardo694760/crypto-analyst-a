@@ -1,0 +1,23 @@
+# Framework principal
+fastapi
+uvicorn
+gunicorn
+
+
+# Consumo de APIs externas
+requests
+python-dotenv
+
+# Banco de dados e ORM
+sqlalchemy
+alembic
+psycopg2
+
+# Inteligência Artificial
+openai
+google-generativeai
+
+# Testes
+pytest
+httpx
+

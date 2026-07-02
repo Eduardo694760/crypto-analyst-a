@@ -1,0 +1,12 @@
+{
+    "cryptos": [
+        {"symbol": "BTC", "name": "Bitcoin", "price_usd": 60113, "updated_at": "2026-07-01T12:51:14"},
+        {"symbol": "ETH", "name": "Ethereum", "price_usd": 1619.64, "updated_at": "2026-07-01T12:51:14"}
+    ],
+    "news": [
+        {"title": "Bitcoin cai abaixo de US$ 59 mil...", "source": "NewsAPI", "created_at": "2026-07-01T12:55:00"}
+    ],
+    "analysis": [
+        {"source": "Gemini", "content": "Resumo direto e análise...", "created_at": "2026-07-01T18:03:36"}
+    ]
+}

@@ -1,0 +1,37 @@
+# Ignorar ambiente virtual
+venv/
+
+# Ignorar arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar logs
+*.log
+
+# Ignorar configurações locais
+.env
+
+# Ignorar arquivos de cache
+.cache/
+*.sqlite3
+
+# Ignorar configurações do VS Code
+.vscode/
+# Ignorar arquivos de migração temporários
+migrations/
+
+# Ignorar arquivos de testes temporários
+*.coverage
+.coverage.*
+htmlcov/
+
+# Ignorar relatórios de dependências
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar arquivos de build
+build/
+dist/
+*.egg-info/
